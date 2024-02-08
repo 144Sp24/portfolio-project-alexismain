@@ -1,0 +1,79 @@
+/*
+Author: Alexis Main
+Date: 02/08/2024
+File: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: darkgrey;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.75em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Style rules for main content */
+main {
+    padding: 1%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+main h1 {
+    padding-top: 2%;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 1em;
+    background-color: black;
+    color: aquamarine;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer a {
+    color: deepskyblue;
+    text-decoration: none;
+}

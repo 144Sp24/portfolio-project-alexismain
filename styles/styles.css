@@ -14,6 +14,13 @@ body, header, nav, main, footer, img, h1, h2, h3 {
 /* Style rules for mobile viewport */
 
 /* Style rules to show mobile class and hide tab-desk class */
+#mobile {
+    display: block;
+}
+
+#tablet-desktop {
+    display: none;
+}
 
 /* Style rules for header area */
 header {
@@ -23,7 +30,7 @@ header {
 
 /* Style rules for navigation area */
 nav {
-    background-color: black;
+    background-color: white;
 }
 
 nav ul {
@@ -37,12 +44,12 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     border-top: solid 0.5px;
-    border-top-color: black;
+    border-top-color: white;
 }
 
 nav li a {
     display: block;
-    color: black;
+    color: white;
     padding: 0.5em 2em;
     text-decoration: none;
 }
@@ -92,7 +99,7 @@ main ul {
 }
 
 
-#tel-link {
+#tel-link-round {
     background-color: black;
     padding: 2%;
     width: 80%;
@@ -109,7 +116,7 @@ main ul {
 }
 
 /* Style rules for body and images */
-body {
+/*body {
     background-color: darkgrey;
 }
 
@@ -173,4 +180,14 @@ footer {
 footer a {
     color: deepskyblue;
     text-decoration: none;
+}
+/* Tablet Desktop Properties */
+@media screen and (min-width:630px) {
+    #tablet-desktop {
+        display: block;
+    }
+    
+    #mobile {
+        display: none;
+    }
 }
